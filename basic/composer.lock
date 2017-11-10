@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "d0ae91dd49c8a7d0b85d596e662463df",
+    "content-hash": "616afafd05a40da0627ffc79aa13a5db",
     "packages": [
         {
             "name": "bower-asset/bootstrap",
@@ -318,6 +318,47 @@
                 "html"
             ],
             "time": "2017-06-03T02:28:16+00:00"
+        },
+        {
+            "name": "foundationize/yii2-foundation",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/foundationize/yii2-foundation.git",
+                "reference": "8a4eef8586248ef28d885823cdc97351e6f6229e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/foundationize/yii2-foundation/zipball/8a4eef8586248ef28d885823cdc97351e6f6229e",
+                "reference": "8a4eef8586248ef28d885823cdc97351e6f6229e",
+                "shasum": ""
+            },
+            "require": {
+                "yiisoft/yii2": "*"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "foundationize\\foundation\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Gert van Tonder",
+                    "email": "gvanto@gmail.com",
+                    "homepage": "http://foundationize.com"
+                }
+            ],
+            "description": "The Foundation extension for the Yii2 framework",
+            "keywords": [
+                "foundation",
+                "yii2"
+            ],
+            "time": "2016-06-16T03:27:11+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -3291,7 +3332,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "foundationize/yii2-foundation": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
